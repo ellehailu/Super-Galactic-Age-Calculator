@@ -19,7 +19,7 @@ describe('Should create a time passed object', () => {
     })
     test('should calculate how much time has passed in venus years', () => {
         let venusPassed = timePassed.VenusPassed();
-        expect(venusPassed).toEqual(20.97);
+        expect(venusPassed).toBeCloseTo(20.97);
     })
 })
 

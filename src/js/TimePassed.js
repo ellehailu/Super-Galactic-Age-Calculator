@@ -16,6 +16,9 @@ export default class TimePassed {
         return mercuryPassed;
     }
     VenusPassed(){
+        const venusPassed = parseFloat(((this.currentAge -this.pastAge)/0.62).toFixed(2))
+        console.log(venusPassed)
+        return venusPassed;
     }
 }
 
