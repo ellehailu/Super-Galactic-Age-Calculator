@@ -1,6 +1,7 @@
 export default class AgeCalculator{
     constructor(currentYear, birthYear) {
-        
+        this.currentYear = currentYear;
+        this.birthYear = birthYear;
+        let earthAge = this.currentYear - this.birthYear;
     }
-    //age in earth years = current year - year user was born
 }
