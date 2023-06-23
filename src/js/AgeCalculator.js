@@ -9,4 +9,8 @@ export default class AgeCalculator{
         console.log(merAge)
         return merAge;
     }
+
+    VenusAge() {
+        
+    }
 }

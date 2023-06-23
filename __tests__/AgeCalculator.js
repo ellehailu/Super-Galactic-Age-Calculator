@@ -13,6 +13,8 @@ describe('AgeCalculator', () => {
         let mercuryAge = ageCalculator.MercuryAge();
         expect(mercuryAge).toBeCloseTo(104.17)
     })
-
-
+    test('should correctly calculate age on venus', () => {
+        let venusAge = ageCalculator.VenusAge();
+        expect(venusAge).toBeCloseTo(40.32)
+    })
 });
