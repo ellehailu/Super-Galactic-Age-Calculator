@@ -15,4 +15,8 @@ export default class AgeCalculator{
         console.log((venusAge).toFixed(2));
         return venusAge;
     }
+
+    MarsAge() {
+        // const marsAge = (this.currentYear - this.birthYear) / 1.88;
+    }
 }
