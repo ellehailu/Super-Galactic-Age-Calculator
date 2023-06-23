@@ -4,4 +4,7 @@ export default class AgeCalculator{
         this.birthYear = birthYear;
         let earthAge = this.currentYear - this.birthYear;
     }
+    MercuryAge() {
+       
+    }
 }
