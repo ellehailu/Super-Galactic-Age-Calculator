@@ -11,7 +11,9 @@ export default class TimePassed {
     }
 
     MercuryPassed(){
-        
+        const mercuryPassed = parseFloat(((this.currentAge - this.pastAge)/0.24).toFixed(2));
+        console.log(mercuryPassed)
+        return mercuryPassed;
     }
 }
 
