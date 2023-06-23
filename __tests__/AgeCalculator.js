@@ -23,4 +23,8 @@ describe('AgeCalculator', () => {
         expect(marsAge).toBeCloseTo(13.30)
     
     })
+    test('should correctly calculate age on jupiter', () => {
+        let jupiterAge = ageCalculator.JupiterAge();
+        expect(jupiterAge).toBeCloseTo(2.11)
+    })
 });

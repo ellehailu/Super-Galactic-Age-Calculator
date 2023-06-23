@@ -20,4 +20,8 @@ export default class AgeCalculator{
         const marsAge = (this.currentYear - this.birthYear) / 1.88;
         return marsAge;
     }
+
+    JupiterAge() {
+        
+    }
 }
