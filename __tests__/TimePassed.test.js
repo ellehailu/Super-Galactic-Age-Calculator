@@ -25,5 +25,9 @@ describe('Should create a time passed object', () => {
         let marsPassed = timePassed.MarsPassed();
         expect(marsPassed).toBeCloseTo(6.91)
     })
+    test('should calculate how much time has passed in jupiter years', () => {
+        let jupiterPassed = timePassed.JupiterPassed();
+        expect(jupiterPassed).toEqual(1.10)
+    })
 })
 
