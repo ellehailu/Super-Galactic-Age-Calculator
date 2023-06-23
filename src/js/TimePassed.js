@@ -20,6 +20,9 @@ export default class TimePassed {
         console.log(venusPassed)
         return venusPassed;
     }
+    MarsPassed(){
+
+    }
 }
 
 
