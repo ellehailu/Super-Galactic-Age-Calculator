@@ -5,7 +5,9 @@ export default class TimePassed {
     }
 
     EarthPassed(){
-        //subtracts the past age from current age
+        const earthPassed = this.currentAge - this.pastAge;
+        console.log(earthPassed)
+        return earthPassed;
     }
 }
 
