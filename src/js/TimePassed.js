@@ -26,11 +26,7 @@ export default class TimePassed {
     }
 
     JupiterPassed(){
-        
+        const jupiterPassed = parseFloat(((this.currentAge - this.pastAge)/11.86).toFixed(2))
+        return jupiterPassed
     }
 }
-
-
-// Returns their age in Venus years. (A Venus year is .62 Earth years.)
-// Returns their age in Mars years. (A Mars year is 1.88 Earth years.)
-// Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
