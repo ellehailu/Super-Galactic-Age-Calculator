@@ -4,6 +4,10 @@ export default class AgeCalculator{
         this.birthYear = birthYear;
         let earthAge = this.currentYear - this.birthYear;
     }
+    EarthAge() {
+        const earthAge = (this.currentYear - this.birthYear)
+        return earthAge;
+    }
     MercuryAge() {
         const merAge = (this.currentYear - this.birthYear) / 0.24;
         console.log(merAge)
