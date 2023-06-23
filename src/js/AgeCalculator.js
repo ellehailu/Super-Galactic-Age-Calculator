@@ -17,6 +17,7 @@ export default class AgeCalculator{
     }
 
     MarsAge() {
-        // const marsAge = (this.currentYear - this.birthYear) / 1.88;
+        const marsAge = (this.currentYear - this.birthYear) / 1.88;
+        return marsAge;
     }
 }

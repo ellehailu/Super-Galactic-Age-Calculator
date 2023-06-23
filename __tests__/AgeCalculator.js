@@ -1,3 +1,4 @@
+import { experiments } from 'webpack';
 import AgeCalculator from './../src/js/AgeCalculator.js'
 
 describe('AgeCalculator', () => {
