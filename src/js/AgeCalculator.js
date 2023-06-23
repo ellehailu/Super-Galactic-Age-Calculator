@@ -22,6 +22,8 @@ export default class AgeCalculator{
     }
 
     JupiterAge() {
-        
+        const jupiterAge = (this.currentYear - this.birthYear) / 11.86;
+        console.log(jupiterAge.toFixed(2))
+        return jupiterAge;
     }
 }
