@@ -21,7 +21,8 @@ export default class TimePassed {
         return venusPassed;
     }
     MarsPassed(){
-
+        const marsPassed = parseFloat(((this.currentAge - this.pastAge)/1.88).toFixed(2))
+        return marsPassed;
     }
 }
 
