@@ -9,6 +9,10 @@ export default class TimePassed {
         console.log(earthPassed)
         return earthPassed;
     }
+
+    MercuryPassed(){
+        
+    }
 }
 
 
