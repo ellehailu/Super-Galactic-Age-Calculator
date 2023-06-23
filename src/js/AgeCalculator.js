@@ -11,6 +11,8 @@ export default class AgeCalculator{
     }
 
     VenusAge() {
-        
+        const venusAge = (this.currentYear - this.birthYear) / 0.62;
+        console.log((venusAge).toFixed(2));
+        return venusAge;
     }
 }
