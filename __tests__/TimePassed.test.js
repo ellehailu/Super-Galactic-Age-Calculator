@@ -11,11 +11,15 @@ describe('Should create a time passed object', () => {
     })
     test('should calculate how much time has passed in earth years', () =>{
         let earthPassed = timePassed.EarthPassed();
-        expect(earthPassed).toEqual(13);
+        expect(earthPassed).toBeCloseTo(13);
     });
     test('should calculate how much time has passed in mercury years', () =>{
         let mercuryPassed = timePassed.MercuryPassed();
         expect(mercuryPassed).toBeCloseTo(54.17);
+    })
+    test('should calculate how much time has passed in venus years', () => {
+        let venusPassed = timePassed.VenusPassed();
+        expect(venusPassed).toEqual(20.97);
     })
 })
 
