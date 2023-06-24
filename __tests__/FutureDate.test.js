@@ -9,8 +9,12 @@ describe('create a future date object', () => {
         expect(futureTime.futureAge).toEqual(50);
         expect(futureTime.currentAge).toEqual(25);
     })
-    test('should calculate the number of years until the future time is reached', () => {
+    test('should calculate the number of years until the future time is reached in earth years', () => {
         let earthFuture = futureTime.EarthFuture();
         expect(earthFuture).toEqual(25);
+    })
+    test('should calculate the number of years until the future time is reached in mercury years', () =>{
+        let mercuryFuture = futureTime.MercuryFuture();
+        expect(mercuryFuture).toEqual(104.17)
     })
 })

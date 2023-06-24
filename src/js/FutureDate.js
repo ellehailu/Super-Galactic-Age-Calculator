@@ -7,4 +7,7 @@ export default class FutureTime{
         const earthFuture = this.futureAge - this.currentAge;
         return earthFuture;
     }
+    MercuryFuture(){
+        
+    }
 }
