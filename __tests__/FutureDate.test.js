@@ -17,4 +17,8 @@ describe('create a future date object', () => {
         let mercuryFuture = futureTime.MercuryFuture();
         expect(mercuryFuture).toBeCloseTo(104.17)
     })
+    test('should calculate the number of years until the future time is reached in mercury years', () =>{
+        let venusFuture = futureTime.VenusFuture();
+        expect(venusFuture).toEqual(40.32);
+    })
 })

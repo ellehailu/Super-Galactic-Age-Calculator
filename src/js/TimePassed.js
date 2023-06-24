@@ -27,6 +27,6 @@ export default class TimePassed {
 
     JupiterPassed(){
         const jupiterPassed = parseFloat(((this.currentAge - this.pastAge)/11.86).toFixed(2))
-        return jupiterPassed
+        return jupiterPassed;
     }
 }

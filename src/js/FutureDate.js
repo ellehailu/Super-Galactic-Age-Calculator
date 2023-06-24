@@ -11,4 +11,7 @@ export default class FutureTime{
         const mercuryFuture = parseFloat(((this.futureAge - this.currentAge)/0.24).toFixed(2));
         return mercuryFuture;
     }
+    VenusFuture(){
+        
+    }
 }
