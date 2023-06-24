@@ -3,4 +3,7 @@ export default class FutureTime{
         this.futureAge = futureAge;
         this.currentAge = currentAge; 
     }
+    EarthFuture(){
+        
+    }
 }
