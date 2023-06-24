@@ -4,6 +4,7 @@ export default class FutureTime{
         this.currentAge = currentAge; 
     }
     EarthFuture(){
-        
+        const earthFuture = this.futureAge - this.currentAge;
+        return earthFuture;
     }
 }
