@@ -19,4 +19,7 @@ export default class FutureTime{
         const marsFuture = parseFloat(((this.futureAge - this.currentAge)/1.88).toFixed(2));
         return marsFuture;
     }
+    JupiterFuture(){
+        
+    }
 }

@@ -25,4 +25,8 @@ describe('create a future date object', () => {
         let marsFuture = futureTime.MarsFuture();
         expect(marsFuture).toEqual(13.30);
     });
+    test('should calculate the number of years until the future time is reached in Jupiter years', () => {
+        let jupiterFuture = futureTime.JupiterFuture();
+        expect(jupiterFuture).toEqual(2.11)
+    })
 })
