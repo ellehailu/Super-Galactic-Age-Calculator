@@ -8,8 +8,6 @@
 
 - _JavaScript_
 - _HTML_
-- _you used in your project_
-- _here_
 
 ## Description
 
