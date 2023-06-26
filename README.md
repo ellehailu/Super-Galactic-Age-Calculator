@@ -19,7 +19,8 @@ _The application should take a person's age in years and:_
 - _Returns their age in Venus years. (A Venus year is .62 Earth years.)_
 - _Returns their age in Mars years. (A Mars year is 1.88 Earth years.)_
 - _Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)_
-- _Determines how many years have passed on each planet since a past birthday. _
+- _Determines how many years have passed on each planet since a past birthday._
+- _Determines how many years have yet to pass until a future birthday._
 
 ## Setup/Installation Requirements
 
